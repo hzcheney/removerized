@@ -59,12 +59,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-          <Script
+          {/* <Script
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5245068093651973"
             crossOrigin="anonymous"
             strategy="lazyOnload"
-          />
+          /> */}
         </head>
         <body
           className={cn(

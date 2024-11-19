@@ -88,7 +88,7 @@ export default function AdBanner(): JSX.Element {
               />
             </svg>
 
-            <span>Ads</span>
+            {/* <span>Ads</span> */}
 
             <Button
               onClick={() => setShow(false)}
