@@ -90,7 +90,7 @@ export default function AdBanner(): JSX.Element {
 
             {/* <span>Ads</span> */}
 
-            <Button
+            {/* <Button
               onClick={() => setShow(false)}
               variant={"ghost"}
               size={"icon"}
@@ -103,9 +103,9 @@ export default function AdBanner(): JSX.Element {
           <div
             className="mx-auto w-fit items-center justify-center overflow-hidden rounded-2xl border border-neutral-700 object-contain text-center text-white"
             ref={banner}
-          ></div>
-        </div>
+          ></div> */}
+          </div>
       )}
-    </>
-  )
-}
+        </>
+      )
+      }
